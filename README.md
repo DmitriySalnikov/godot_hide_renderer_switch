@@ -1,0 +1,1 @@
+addons/editor_only/hide_renderer/README.md
