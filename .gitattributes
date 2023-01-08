@@ -2,6 +2,7 @@
 * text=auto eol=lf
 
 # Ignore some files when exporting to a ZIP.
+/LICENSE				export-ignore
 /.github				export-ignore
 /images					export-ignore
 /*.*					export-ignore
