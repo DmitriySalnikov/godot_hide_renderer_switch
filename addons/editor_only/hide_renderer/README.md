@@ -4,6 +4,8 @@
 
 Toggle the visibility of the rendering switch button with ease using this add-on!
 
+![preview.png](/images/preview.png)
+
 After this [pull request](https://github.com/godotengine/godot/pull/70500) in Godot 4.x, a switch was returned to quickly change the rendering backend, but as for me it takes up too much space and I just don't need it.
 
 Under the hood, this switch simply changes this setting in `ProjectSettings` (`rendering/renderer/rendering_method`):
