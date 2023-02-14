@@ -66,7 +66,7 @@ func _search_for_renderer_button(root : Control) -> Control:
 				if b:
 					# and finally, check the connection to &EditorNode::_renderer_selected
 					# this is the most reliable information to get this button
-					var con : Array[Dictionary] = b.item_selected.get_connections()
+					var con : Array = b.item_selected.get_connections()
 					for col in con:
 						var sig : Signal = col["signal"]
 						var cal : Callable = col["callable"]
